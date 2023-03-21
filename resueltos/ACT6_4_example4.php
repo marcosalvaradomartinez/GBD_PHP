@@ -7,8 +7,7 @@
 		echo "Starting demo <br>";
 
 		foreach ($numeros as $numero) {
-			print "numero " . $numero . "\n";
-			
+			print "numero " . $numero . "\n";	
 			if (($numero % 2) == 1) {
 				$impares++;
 			} else {
