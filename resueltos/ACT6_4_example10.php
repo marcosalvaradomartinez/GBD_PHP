@@ -1,4 +1,4 @@
-<?php
+	<?php
 	function demo($var1, $var2) {
 		echo " Before try block<br>";
 		
