@@ -13,16 +13,32 @@
 
 // echo "Hay " . $pares . "pares y " . $impares . " impares."
 
-$cadena = array('x', 'l', 'a', 'b', 'l', 'a', 'c', 'l', 'd');
-$i = 0;
-$total=0;
+// $cadena = array('x', 'l', 'a', 'b', 'l', 'a', 'c', 'l', 'd');
+// $i = 0;
+// $total=0;
 
-for ($i = 0; $i <= sizeof($cadena); ($i++)) {
-    if(($cadena[$i] == 'l' ) && ($cadena[$i+1] == 'a')){
+// for ($i = 0; $i <= sizeof($cadena); ($i++)) {
+//     if(($cadena[$i] == 'l' ) && ($cadena[$i+1] == 'a')){
+//         $total++;
+// }   
+// };
+
+// echo "Hay " . $total;
+
+$cadena = array('x', 'l', 'a', 'b', 'l', 'a', 'c', 'l', 'd');
+$total=0;
+$ant='';
+$i = 0;
+
+for ($i = 0; $i <= sizeof($cadena) - 1; $i++){
+    echo $cadena[$i] . "<br>";
+    if(($ant == 'l') && ($cadena[$i] == 'a')){
         $total++;
-}   
+    }
+    $ant = $cadena[$i];
 };
 
 echo "Hay " . $total;
+
 
 ?>
