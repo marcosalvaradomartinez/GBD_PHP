@@ -13,10 +13,10 @@
 	});
 
 	// Connection data
-	DEFINE('HOST','192.168.210.1'); // vps-ce1cd54b.vps.ovh.net
+	DEFINE('HOST','192.168.78.169'); // vps-ce1cd54b.vps.ovh.net
 	DEFINE('DBNAME','HR');
 	DEFINE('USERNAME','HR');
-	DEFINE('PASSWD','Educacio123!');
+	DEFINE('PASSWD','H.12345678');
 	$conn = null;
 	
 	// Set MySQLi to throw exceptions
